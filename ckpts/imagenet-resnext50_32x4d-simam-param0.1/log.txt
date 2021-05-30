@@ -1,4 +1,0 @@
-Network - resnext50_32x4d
-Attention Module - simam
------------ Acc@1 47.246 Acc@5 70.510 -----------
------------ Acc@1 78.000 Acc@5 93.926 -----------
