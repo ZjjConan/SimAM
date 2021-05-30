@@ -1,0 +1,3 @@
+Network - resnext50_32x4d
+Attention Module - none
+----------- Acc@1 77.466 Acc@5 93.524 -----------
