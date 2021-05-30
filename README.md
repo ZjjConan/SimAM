@@ -22,53 +22,9 @@ Module
 
 Our goal is to infer a 3-D attention weights (Figure (c)) with a given feature map, which is very different to previous works as shown in Figure (a) and (b).
 
-<style>
-.column3d {
-  float: left;
-  width: 33.3%;
-  padding: 5px;
-  text-align: center;
-}
-
-.column2d {
-  float: left;
-  width: 49.5%;
-  padding: 5px;
-  text-align: center;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
-
-
-<div class="row">
-  <div class="column3d">
-    <img src="figures/1D-attn-crop.png" alt="1d-att" style="width:100%" class="center">
-    <figcaption>(a) Channel-wise attention</figcaption>
-  </div>
-  <div class="column3d">
-    <img src="figures/2D-attn-crop.png" alt="2d-att" style="width:100%" class="center">
-    <figcaption>(b) Spatial-wise attention</figcaption>
-  </div>
-  <div class="column3d">
-    <img src="figures/3D-attn-crop.png" alt="our-3d-att" style="width:100%" class="center">
-    <figcaption>(c) 3-D weights for attention</figcaption>
-  </div>
-</div>
-
-<br>
-
+<p align="center">
+<img width="680" height="180" src="figures/attentions.png">
+</p>
 
 **SimAM (A pytorch-like implementation).** Detail of implementations, including the module and the network, can be found in ``networks`` in this repository. 
 
@@ -93,16 +49,9 @@ Our goal is to infer a 3-D attention weights (Figure (c)) with a given feature m
 Training and Validation Curves
 ----------
 
-<div class="row">
-  <div class="column2d">
-    <img src="figures/r50_top1_accuracy.png" alt="r50_top1" style="width:100%" class="center">
-    <figcaption> (a) Top-1 accuracy. </figcaption>
-  </div>
-  <div class="column2d">
-    <img src="figures/r50_top5_accuracy.png" alt="r50_top5" style="width:100%" class="center">
-    <figcaption> (b) Top-5 accuracy. </figcaption>
-  </div>
-</div>
+<p align="center">
+<img src="figures/training_curves.png">
+</p>
 
 Experiments
 ----------
