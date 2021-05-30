@@ -23,7 +23,7 @@ Module
 Our goal is to infer a 3-D attention weights (Figure (c)) with a given feature map, which is very different to previous works as shown in Figure (a) and (b).
 
 <p align="center">
-<img width="680" height="180" src="figures/attentions.png">
+<img src="figures/attentions.png">
 </p>
 
 **SimAM (A pytorch-like implementation).** Detail of implementations, including the module and the network, can be found in ``networks`` in this repository. 
