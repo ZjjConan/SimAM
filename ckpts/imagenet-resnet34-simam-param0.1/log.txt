@@ -1,3 +1,0 @@
-Network - resnet34
-Attention Module - simam
------------ Acc@1 74.462 Acc@5 92.028 -----------

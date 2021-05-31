@@ -1,3 +1,0 @@
-Network - mobilenet_v2
-Attention Module - simam
------------ Acc@1 72.360 Acc@5 90.742 -----------

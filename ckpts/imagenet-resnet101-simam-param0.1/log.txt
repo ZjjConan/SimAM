@@ -1,3 +1,0 @@
-Network - resnet101
-Attention Module - simam
------------ Acc@1 78.650 Acc@5 94.112 -----------
