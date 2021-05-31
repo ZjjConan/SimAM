@@ -286,7 +286,7 @@ if __name__ == "__main__":
                         help="wider resnet for training")
     
     # Misc
-    parser.add_argument("--seed", type=int, default=1, 
+    parser.add_argument("----", type=int, default=1, 
                         help="random seed (default: 1)")
     parser.add_argument("--disp_iter", type=int, default=100,
                         help="frequence to display training status (default: 100)")

@@ -17,7 +17,7 @@ def save_checkpoint(state, is_best, epoch, save_path='./'):
 
 
 def load_checkpoint(args, model, optimizer=None, verbose=True):
-    # print(args.resume)
+
     checkpoint = torch.load(args.resume)
 
     start_epoch = 0
@@ -29,16 +29,15 @@ def load_checkpoint(args, model, optimizer=None, verbose=True):
     if "best_acc" in checkpoint:
         best_acc = checkpoint['best_acc']
 
-    # print(checkpoint['state_dict'])
     model.load_state_dict(checkpoint['state_dict'], False)
 
-    # if optimizer is not None and "optimizer" in checkpoint:
-        # optimizer.load_state_dict(checkpoint['optimizer'])
+    if optimizer is not None and "optimizer" in checkpoint:
+        optimizer.load_state_dict(checkpoint['optimizer'])
 
-        # for state in optimizer.state.values():
-        #     for k, v in state.items():
-        #         if isinstance(v, torch.Tensor):
-        #             state[k] = v.to(args.device)
+        for state in optimizer.state.values():
+            for k, v in state.items():
+                if isinstance(v, torch.Tensor):
+                    state[k] = v.to(args.device)
 
     if verbose:
         print("=> loading checkpoint '{}' (epoch {})"
