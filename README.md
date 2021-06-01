@@ -76,7 +76,7 @@ python main_imagenet.py {the path of ImageNet} --gpu 0,1,2,3 --epochs 150 -j 20 
 ```
 # Evaluating the trained model
 
-python main_imagenet.py {the path of ImageNet} --gpu 0,1,2,3 --epochs 100 -j 20 -a resnet18 -e
+python main_imagenet.py {the path of ImageNet} --gpu 0,1,2,3 -j 20 -a resnet18 -e
 --resume {the path of pretrained .pth}
 ```
 
@@ -121,4 +121,4 @@ We use [mmdetection](https://github.com/open-mmlab/mmdetection) to train Faster 
 
 ## Contact Information
 
-If you have any suggestion or question, you can contact us by the email: lingxiao.yang717@gmail.com. Thanks for your attention!
+If you have any suggestion or question, you can contact us by: lingxiao.yang717@gmail.com. Thanks for your attention!
