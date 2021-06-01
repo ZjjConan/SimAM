@@ -83,7 +83,7 @@ python main_imagenet.py {the path of ImageNet} --gpu 0,1,2,3 --epochs 100 -j 20 
 ### ImageNet
 
 
-All the following models can be download from **[BaiduYunPan](https://pan.baidu.com/s/1qqBON70D-IjB4MropSD5_g)** (extract code: **2bue**) and **[Google Drive](https://drive.google.com/drive/folders/1rRT0UCPeRLPdTCJvv43hvAnGnS49nIWn?usp=sharing).**
+All the following models can be download from **[BaiduYunPan](https://pan.baidu.com/s/1YSQRw_bGy2iPhyhdn5KLLw?_at_=1622528631657#list/path=%2F)** (extract code: **3xly**) and **[Google Drive](https://drive.google.com/drive/folders/1rRT0UCPeRLPdTCJvv43hvAnGnS49nIWn?usp=sharing).**
 
 |Model                |Parameters |FLOPs    |Top-1(%)   |Top-5(%)|
 |:---:                |:----:     |:---:    |:------:   |:------:|
