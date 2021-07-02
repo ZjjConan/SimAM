@@ -20,21 +20,6 @@ from checkpoint import save_checkpoint, load_checkpoint
 from networks.cifar import create_net
 
 
-# def adjust_learning_rate_wrn(optimizer, epoch, warmup=False):
-#     """Adjust the learning rate"""
-#     if epoch <= 61:
-#         lr = 0.01 if warmup and epoch == 0 else args.base_lr
-#     elif epoch <= 121:
-#         lr = args.base_lr * 0.2
-#     elif epoch <= 161:
-#         lr = args.base_lr * 0.04
-#     else:
-#         lr = args.base_lr * 0.008
-
-#     for param_group in optimizer.param_groups:
-#         param_group["lr"] = lr
-
-
 def adjust_learning_rate(optimizer, epoch, warmup=False):
     """Adjust the learning rate"""
     if epoch <= 81:
@@ -286,7 +271,7 @@ if __name__ == "__main__":
                         help="wider resnet for training")
     
     # Misc
-    parser.add_argument("----", type=int, default=1, 
+    parser.add_argument("--seed", type=int, default=1, 
                         help="random seed (default: 1)")
     parser.add_argument("--disp_iter", type=int, default=100,
                         help="frequence to display training status (default: 100)")
