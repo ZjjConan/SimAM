@@ -121,7 +121,7 @@ We use [mmdetection](https://github.com/open-mmlab/mmdetection) to train Faster 
 
 Citation
 --------
-If you find DLST useful in your research, please consider citing:
+If you find SimAM useful in your research, please consider citing:
 
     @InProceedings{pmlr-v139-yang21o,
         title = 	 {SimAM: A Simple, Parameter-Free Attention Module for Convolutional Neural Networks},
