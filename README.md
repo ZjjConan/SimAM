@@ -89,7 +89,7 @@ All the following models can be download from **[BaiduYunPan](https://pan.baidu.
 |Model                |Parameters |FLOPs    |Top-1(%)   |Top-5(%)|
 |:---:                |:----:     |:---:    |:------:   |:------:|
 |SimAM-R18            |11.69 M    |1.82 G   |71.31      |89.88   |
-|SimAM-R32            |21.80 M    |3.67 G   |74.49      |92.02   |
+|SimAM-R34            |21.80 M    |3.67 G   |74.49      |92.02   |
 |SimAM-R50            |25.56 M    |4.11 G   |77.45      |93.66   |
 |SimAM-R101           |44.55 M    |7.83 G   |78.65      |94.11   |
 |SimAM-RX50 (32x4d)   |25.03 M    |4.26 G   |78.00      |93.93   |
