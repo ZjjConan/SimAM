@@ -1,5 +1,5 @@
 ## SimAM: A Simple, Parameter-Free Attention Module for Convolutional Neural Networks
-[**Lingxiao Yang**](https://zjjconan.github.io/), [Ru-Yuan Zhang](https://ruyuanzhang.github.io/), [Lida Li](https://github.com/lld533), [Xiaohua Xie](http://sdcs.sysu.edu.cn/content/2478)
+[**Lingxiao Yang**](https://zjjconan.github.io/), [Ru-Yuan Zhang](https://ruyuanzhang.github.io/), [Lida Li](https://github.com/lld533), [Xiaohua Xie](http://cse.sysu.edu.cn/content/2478)
 
 Abstract
 ----------
